@@ -22,7 +22,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 - The results have shown that SVM outperforms logistic regression, random forest and the ensemble of these algorithms for stock movement prediction. The inherent capability of SVM to avoid overfitting contributed to this conclusion;
 - Essential contributions from literature allowed the construction of a model that can forecast with similar accuracies of current published papers. As it is the case for market traders, the usage of technical indicators and global indexes have shown to be a powerful strategy to support forecast decisions.
 
-![](/Images/FB.png)![](/Images/FB_Res.png)
+![Test Set Results for the analysed models: Logistic Regression (LR), Random Forest (RF), SVM and Ensemble.](/Images/FB_Res.png)
 
 
 
