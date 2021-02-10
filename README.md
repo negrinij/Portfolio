@@ -19,10 +19,10 @@ Here you can find some of the recent projects I have been working on. If you wou
 - This project aims to predict Facebook (FB) next day stock price direction with Machine Learning algorithms. Daily values were retrieved (volume, open, close, low and high prices) from Yahoo! Finance website. The date range is July 2012 to November 2018;
 - Technical indicators and global market indexes are used, and their influence on the forecast accuracy is analysed;
 - The final dataset comprises 44 features and approximately 1600 samples from daily market data;
-- The results have shown that SVM outperforms logistic regression, random forest and the ensemble of these algorithms for stock movement prediction. The inherent capability of SVM to avoid overfitting contributed to this conclusion;
+- The results have shown that SVM outperforms logistic regression (LR), random forest (RF) and the ensemble of these algorithms for stock movement prediction. The inherent capability of SVM to avoid overfitting contributed to this conclusion;
 - Essential contributions from literature allowed the construction of a model that can forecast with similar accuracies of current published papers. As it is the case for market traders, the usage of technical indicators and global indexes have shown to be a powerful strategy to support forecast decisions.
 
-![Test Set Results for the analysed models: Logistic Regression (LR), Random Forest (RF), SVM and Ensemble.](/Images/FB_Res.png)
+![](/Images/FB_Res.png)
 
 
 
