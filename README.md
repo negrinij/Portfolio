@@ -6,7 +6,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ### [Santander Customer Transaction Challenge](https://github.com/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
 
-![](https://github.com/negrinij/Main/blob/main/Images/FB.png)
+![](https://github.com/negrinij/Main/blob/main/Images/Santander.png)
 
 - Part of a Kaggle challenge, the goal is to predict if Santander's clients will execute a specific transaction;
 - The dataset provided by the bank is anonymised, and it is a representation of real customer data;
