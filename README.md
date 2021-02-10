@@ -4,7 +4,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ## Projects
 
-### [Santander Customer Transaction Challenge] (https://github.com/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
+### [Santander Customer Transaction Challenge](https://github.com/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
 
 -Part of a Kaggle challenge, the goal is to predict if Santander's clients will execute a specific transaction;
 -The dataset provided by the bank is anonymised, and it is a representation of real customer data;
@@ -12,7 +12,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 -Light GBM has shown to be an interesting choice for this dataset. The final model AUC is approximately 90% for both train and test sets;
 -Preliminary tests with Logistic Regression, SVM and XGBoost have not reached AUC values above 65%. As future work, an ensemble model would be an interesting approach as well as applying ANN.
 
-### [Stock Market Time-series Analysis] (https://github.com/negrinij/Stock-Analysis/blob/master/FB-Analysis.ipynb)
+### [Stock Market Time-series Analysis](https://github.com/negrinij/Stock-Analysis/blob/master/FB-Analysis.ipynb)
 
 -Time series modelling for the prediction of stocks prices is a challenging task. Political events, market expectations and economic factors are just a few known factors that can impact financial market behaviour;
 -This project aims to predict Facebook (FB) next day stock price direction with Machine Learning algorithms. Daily values were retrieved (volume, open, close, low and high prices) from Yahoo! Finance website. The date range is July 2012 to November 2018;
