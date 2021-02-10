@@ -12,7 +12,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 - Light GBM has shown to be an interesting choice for this dataset. The final model AUC is approximately 90% for both train and test sets;
 - Preliminary tests with Logistic Regression, SVM and XGBoost have not reached AUC values above 65%. As future work, an ensemble model would be an interesting approach as well as applying ANN.
 
-![](https://github.com/negrinij/Main/blob/main/Images/Santander.png)
+![](/Images/Santander.png)
 
 ### [Stock Market Time-series Analysis](https://github.com/negrinij/Stock-Analysis/blob/master/FB-Analysis.ipynb)
 
@@ -22,7 +22,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 - The results have shown that SVM outperforms logistic regression, random forest and the ensemble of these algorithms for stock movement prediction. The inherent capability of SVM to avoid overfitting contributed to this conclusion;
 - Essential contributions from literature allowed the construction of a model that can forecast with similar accuracies of current published papers. As it is the case for market traders, the usage of technical indicators and global indexes have shown to be a powerful strategy to support forecast decisions.
 
-![](https://github.com/negrinij/Main/blob/main/Images/FB.png)
+![](/Images/FB.png)
 
 
 
