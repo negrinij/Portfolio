@@ -2,11 +2,13 @@
 
 Here you can find some of the recent projects I have been working on. If you would like to know more about myself, please check the [About Me](https://github.com/negrinij/Main/edit/main/README.md) section.
 
-## Projects
+I have also worked on Exploratory Data Analysis (EDA's) that can be found [here](https://negrinij.github.io/eda).
+
+## Machine Learning Projects
 
 ### [Santander Customer Transaction Challenge](https://github.com/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
 
-- A Kaggle challenge, the goal is to predict if Santander's clients will execute a specific transaction;
+- A Kaggle challenge where the goal is to predict if Santander's clients will execute a specific transaction;
 - The dataset provided by the bank is anonymised, and it is a representation of real customer data;
 - It is a binary classification problem, with 200 features and 200.000 samples for each the train and test sets;
 - Light GBM has shown to be an interesting choice for this dataset. The final model AUC is approximately 90% for both train and test sets;
