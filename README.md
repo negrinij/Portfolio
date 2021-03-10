@@ -2,7 +2,7 @@
 
 Here you can find some of the recent projects I have been working on. If you would like to know more about myself, please check the [About Me](https://github.com/negrinij/Main/edit/main/README.md) section.
 
-I have also worked on Exploratory Data Analysis (EDA's) that can be found [here](https://negrinij.github.io/eda).
+I have also worked on Exploratory Data Analysis (EDA's) that can be found [here](https://negrinij.github.io/EDA/).
 
 ## Machine Learning Projects
 
