@@ -6,7 +6,7 @@ I have also worked on Exploratory Data Analysis (EDA's) that can be found [here]
 
 ## Machine Learning Projects
 
-### [Santander Customer Transaction Challenge](https://github.com/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
+### [Santander Customer Transaction Challenge](https://nbviewer.jupyter.org/github/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
 
 - A Kaggle challenge where the goal is to predict if Santander's clients will execute a specific transaction;
 - The dataset provided by the bank is anonymised, and it is a representation of real customer data;
@@ -16,7 +16,7 @@ I have also worked on Exploratory Data Analysis (EDA's) that can be found [here]
 
 ![](/Images/Santander.png)
 
-### [Stock Market Time-series Analysis](https://github.com/negrinij/Stock-Analysis/blob/master/FB-Analysis.ipynb)
+### [Stock Market Time-series Analysis](https://nbviewer.jupyter.org/github/negrinij/Stock-Analysis/blob/master/FB-Analysis.ipynb)
 
 - This project aims to predict Facebook (FB) next day stock price direction with Machine Learning algorithms. Daily values were retrieved (volume, open, close, low and high prices) from Yahoo! Finance website. The date range is July 2012 to November 2018;
 - Technical indicators and global market indexes are used, and their influence on the forecast accuracy is analysed;
