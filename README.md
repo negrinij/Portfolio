@@ -6,6 +6,16 @@ I have also worked on Exploratory Data Analysis (EDA's) that can be found [here]
 
 ## Machine Learning Projects
 
+### [HAM10000: Skin Lesion Classification](https://nbviewer.jupyter.org/github/negrinij/HAM10000-SkinCancer/blob/master/ham10000-analysis-and-model-comparison.ipynb)
+
+- The HAM10000 dataset is composed of 10.015 dermatoscopic images of pigmented skin lesions. The dataset present seven classes of skin lesions, including Melanoma, a malignant type of cancer;
+- Melanocytic nevi is the dominant class in the dataset (67%). 
+- Melanoma, seems to be more common in the ages of 45 to 70. Males represent 62% of the incidence of this type of lesionIt could result in a bias towards this type of os skin lesion;
+- From the three different architectures shown in this study, XCeption achieved better accuracy in the test set (~80%);
+- The dataset is unbalanced, for such cases the accuracy metric can give us a false perception of the model reliability. An analysis using F1-score and possible improvements are suggested
+
+![](/Images/HAM10000.png)
+
 ### [Santander Customer Transaction Challenge](https://nbviewer.jupyter.org/github/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
 
 - A Kaggle challenge where the goal is to predict if Santander's clients will execute a specific transaction;
