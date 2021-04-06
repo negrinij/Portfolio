@@ -35,3 +35,15 @@ I have also worked on Exploratory Data Analysis (EDA's) that can be found [here]
 - Essential contributions from literature allowed the construction of a model that can forecast with similar accuracies of current published papers. As it is the case for market traders, the usage of technical indicators and global indexes have shown to be a powerful strategy to support forecast decisions.
 
 ![](/Images/FB_Res.png)
+
+### [UCI Heart Attack Dataset](https://nbviewer.jupyter.org/github/negrinij/UCIHeartAttack/blob/main/heart-attack-uci-dataset-89-acc-test-set.ipynb)
+
+- Binary Classification problem using a amall dataset with approximately three hundred samples and fourteen features
+- Overall, the dataset is balanced between both classes of the Target feature. However, there is an expressive unbalance regarding gender, where Males compose ~70% of the data
+- A higher concentration of positive Heart Attack samples appears in the region where lower values for Age and Cholesterol and higher values of Heart rate meet
+- Data Scaling, OneHotEncoding and the use of KMean for the creation of new features did not improve model generalisation
+- In the training set results, the model shows a tendency for False Positives
+- Optuna Optimisation library is used to choose the best model between: Random Forest and Logistic Regression. Preliminary tests excluded SVM and KNN as options
+- Best Model is Logistic Regression with 89,7% Accuracy. The models were finely tuned with Optuna Library
+![](/UCI.png)
+
