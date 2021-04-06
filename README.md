@@ -45,5 +45,5 @@ I have also worked on Exploratory Data Analysis (EDA's) that can be found [here]
 - In the training set results, the model shows a tendency for False Positives
 - Optuna Optimisation library is used to choose the best model between: Random Forest and Logistic Regression. Preliminary tests excluded SVM and KNN as options
 - Best Model is Logistic Regression with 89,7% Accuracy. The models were finely tuned with Optuna Library
-![](/UCI.png)
+![](/Images/UCI.png)
 
