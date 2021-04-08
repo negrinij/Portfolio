@@ -60,7 +60,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ![](/Images/KaggleHeatmap.png)
 
-### [Analysing Text Data - Whatsapp Messages](https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/Whats/whats.ipynb)
+### [Analysing Text Data - Whatsapp Messages](https://github.com/negrinij/EDA/blob/main/Whats/whats.ipynb)
 
 - The notebook is an analysis of my family Whatsapp group. The data contains 40.000 texts, from April-2016 to September-2020
 - To simulate a realistic scnario, the text data is processed and sent to a SQL database (sqlite3). The pre-processing and retrival of data is performed using Python
