@@ -60,6 +60,15 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ![](/Images/KaggleHeatmap.png)
 
+### [Analysing Text Data - Whatsapp Messages](https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/Whats/whats.ipynb)
+
+- The notebook is an analysis of my family Whatsapp group. The data contains 40.000 texts, from April-2016 to September-2020
+- To simulate a realistic scnario, the text data is processed and sent to a SQL database (sqlite3). The pre-processing and retrival of data is performed using Python
+- The majority of messages are short, with one or two words and the time where most messages are exchanged is the Evening
+- The data contained a few outliers, such as messages upto 175 words or 800 characters
+- The analysis also showed that the conversation is less active from months of April to August. In contrast, February has shown to be a communicative month for us
+
+![](/Images/whats.png)
 
 ### [Natural Disasters 1900-2021: An EDA](https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/EM-DAT/eda-natural-disasters.ipynb)
 
