@@ -1,6 +1,6 @@
 # Welcome to my GitHub Page
 
-Here you can find some of the recent projects I have been working on. If you would like to know more about myself, please check the [About Me](https://github.com/negrinij/Main/edit/main/README.md) section.
+Here you can find some of the recent projects I have been working on. If you would like to know more about myself, please check my [LinkedIn](https://www.linkedin.com/in/juliana-negrini-de-araujo/) profile.
 
 ## Machine Learning Projects
 
