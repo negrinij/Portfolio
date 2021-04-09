@@ -34,6 +34,20 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ![](/Images/FB_Res.png)
 
+### [Covid-19 X-Ray Diagnosis Prediction](https://nbviewer.jupyter.org/github/negrinij/Covid19-XRayImages/blob/main/covid-19-radiography-data-eda.ipynb)
+
+- This notebook uses ML to predict positive cases of Covid-19 given X-ray images. In total, there are 21165 samples divided into four main classes: Covid-19, Lung Opacity, Normal, Viral Pneumonia;
+- The data is unbalanced with almost 50% of samples belongs to "Normal" class;
+- Application of CNN to predict the sample diagnosis. The model converges after 60 epochs
+- Model results:
+  - Covid-19, when misclassified, can be predicted as Lung Opacity or Normal samples. Not likely to be classified as Viral Pneumonia
+  - Normal samples are usually misclassified as Viral Pneumonia or Lung Opacity. Less common to be mistaken for Covid-19
+  - All metrics used presented an overall results above 75%. Results per class have varied, with Covid samples presenting higher Precision ~80% than Recall ~61%
+  - Accuracy Result: 79.37% / Precision Result: 76.08% / Recall Result: 79.14% / F-Score Result: 76.68%
+
+![](/Images/Covid.png)
+
+
 ### [UCI Heart Attack Dataset](https://nbviewer.jupyter.org/github/negrinij/UCIHeartAttack/blob/main/heart-attack-uci-dataset-89-acc-test-set.ipynb)
 
 - Binary Classification problem using a amall dataset with approximately three hundred samples and fourteen features
