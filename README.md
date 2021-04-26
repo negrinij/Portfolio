@@ -34,7 +34,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ![](/Images/FB_Res.png)
 
-### [Covid-19 X-Ray Diagnosis Prediction](https://nbviewer.jupyter.org/github/negrinij/Covid19-XRayImages/blob/main/covid-19-radiography-data-eda.ipynb)
+### [Covid-19 X-Ray Diagnosis Prediction](https://github.com/negrinij/Covid19-XRayImages/blob/main/covid-19-radiography-data-eda-and-cnn-model.ipynb)
 
 - This notebook uses ML to predict positive cases of Covid-19 given X-ray images. In total, there are 21165 samples divided into four main classes: Covid-19, Lung Opacity, Normal, Viral Pneumonia;
 - The data is unbalanced with almost 50% of samples belongs to "Normal" class;
