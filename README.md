@@ -61,6 +61,20 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ## Exploratory Data Analysis (EDA's)
 
+### [Ubiquant Market Prediction Challenge 2022] (https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/KaggleEDA/2020-kaggle-eda-competition.ipynb)
+
+- Ubiquant Investment (Beijing) Co., Ltd is a leading domestic quantitative hedge fund based in China. In this Kaggle competition, the goal is to build a time-series model that forecasts the return rate of the dataset provided by Ubiquant
+- The dataset contains over 3 million rows and 300 anonymized features. All features present numeric values
+- Key Insights include:
+  - The data contains over 3.500 unique investment ID's, covering a period of 1200 time ID's 
+  - The number of active unique investments ID's varies over time, e.g. some investment have less than 100 entries while other are present in every time ID
+  - The Target variable varies from -9 to +12, with a mean of -0.021. There is a higher ratio of negative target values. However, after time ID 800 this ratio difference is reduced
+  - Certain data periods present interesting behaviors that can affect the model. For example, in the period around time ID 400 there is a high fluctuation of positive and negative target outcomes (see graph)
+  
+  
+
+![](/Images/KaggleHeatmap.png)
+
 ### [Kaggle EDA Challenge 2020](https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/KaggleEDA/2020-kaggle-eda-competition.ipynb)
 
 - Exploratory data analysis (EDA) of the most comprehensive dataset available on the state of machine learning and data science today according to the Kaggle Community
