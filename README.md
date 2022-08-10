@@ -14,6 +14,18 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ![](/Images/HAM10000.png)
 
+### [Kaggle Hallowen challenge](https://github.com/negrinij/NLP-AuthorsChallenge/blob/main/spooky-authors-nlp.ipynb)
+
+- The notebook is an analysis of the Kaggle Hallowen challenge from 2017. The goal is to predict the author from a dataset built from excerpts from horror stories by Edgar Allan Poe, Mary Shelley, and HP Lovecraft;
+- The dataset comprises almost 20.000 samples with three features: ID, Text Sample and Author. The goal is to predict the author of the sample passage;
+- Word Count, Character Count, Word Density and Upper to Lower Case Words ratio are some of the features created to analyse the data and author writing patterns
+- Regarding word frequency, "One" was the most used word for Mary Shelley and HP Lovecraft. For Edgard Allan Poe the most used word was "upon";
+- Logistic Regression showed better performance compared to LGBM and Naive-Bayes. An assemble of Naive-Bayes and Logistic Regression was selected as final model;
+- Mary Shelley and HP samples are often misclassified as Edgar Allan Poe passages. Probably due to the larger number of samples from Edgar Allan Poe
+- Additional samples (sample balancing strategies) and new features to better illustrate the different writing style between the authors should be helpful for model improvement
+
+![](/Images/spooky-authors.png)
+
 ### [Santander Customer Transaction Challenge](https://nbviewer.jupyter.org/github/negrinij/Santander-Transaction/blob/master/Santander-Customer-Transaction.ipynb)
 
 - A Kaggle challenge where the goal is to predict if Santander's clients will execute a specific transaction;
@@ -61,7 +73,7 @@ Here you can find some of the recent projects I have been working on. If you wou
 
 ## Exploratory Data Analysis (EDA's)
 
-### [Ubiquant Market Prediction Challenge 2022] (https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/KaggleEDA/2020-kaggle-eda-competition.ipynb)
+### [Ubiquant Market Prediction Challenge 2022](https://github.com/negrinij/EDA/blob/main/Ubiquant/ubiquant-eda.ipynb)
 
 - Ubiquant Investment (Beijing) Co., Ltd is a leading domestic quantitative hedge fund based in China. In this Kaggle competition, the goal is to build a time-series model that forecasts the return rate of the dataset provided by Ubiquant
 - The dataset contains over 3 million rows and 300 anonymized features. All features present numeric values
@@ -70,10 +82,9 @@ Here you can find some of the recent projects I have been working on. If you wou
   - The number of active unique investments ID's varies over time, e.g. some investment have less than 100 entries while other are present in every time ID
   - The Target variable varies from -9 to +12, with a mean of -0.021. There is a higher ratio of negative target values. However, after time ID 800 this ratio difference is reduced
   - Certain data periods present interesting behaviors that can affect the model. For example, in the period around time ID 400 there is a high fluctuation of positive and negative target outcomes (see graph)
-  
-  
+  - From the analysis is possible to see that Data Transformation, Feature Importance analysis and smart handling of time series windows for training and validation are strategies that might pay off for this challenge
 
-![](/Images/KaggleHeatmap.png)
+![](/Images/Ubiquant.JPG)
 
 ### [Kaggle EDA Challenge 2020](https://nbviewer.jupyter.org/github/negrinij/EDA/blob/main/KaggleEDA/2020-kaggle-eda-competition.ipynb)
 
